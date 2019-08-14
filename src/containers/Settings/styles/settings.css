@@ -1,0 +1,199 @@
+.settingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #373737;
+  padding: 20px;
+}
+
+.settings-tab {
+}
+
+.settings-tab ul > li > a,
+.settings-tab ul > li > a:hover{
+  color: #adadad;
+  transition: .5s ease;
+}
+
+.settings-tab ul > li.active > a,
+.settings-tab ul > li.active > a:hover,
+.settings-tab ul > li.active > a:focus {
+  background-color: #efefef;
+  color: #d21280;
+  border-color: #efefef;
+  border-bottom: 2px solid #d21280;
+  transition: .5s ease;
+}
+
+.delete-box {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.settingsContainer .delete-btn {
+  background-color: #990000;
+  color: #e6e6e6;
+  width: 95%;
+  height: 40px;
+  transition: .5s ease;
+}
+
+.settingsContainer .delete-btn:hover,
+.settingsContainer .delete-btn:focus {
+  background-color: #292929;
+  color: #e6e6e6;
+  width: 100%;
+}
+
+.settings-social {
+  max-width: 400px;
+  width: 400px;
+  padding: 40px 30px;
+}
+
+.settings-dp-container {
+  margin-top: 40px;
+  color: #adadad;
+}
+
+.settings-bio {
+  min-width: 200px;
+  margin-top: 20px;
+}
+
+.dp-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.dp-zoom {
+  display: block;
+  justify-content: center;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dp-actions {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dp-actions button,
+.dp-actions button:focus,
+.dp-actions button:active {
+  color: #292929;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.dp-actions button:hover {
+  color: #d21280;
+  text-decoration: none;
+}
+
+.dp:hover {
+  border: 2px dashed #d21280;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.default-dp {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding-top: 80px;
+  border: 2px dashed #adadad;
+  font-size: 50px;
+}
+
+.custom-dp {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fafafa;
+}
+
+.coming-soon {
+  font-size: 14px;
+}
+
+.biography {
+  margin-top: 20px;
+}
+
+.settings {
+  padding: 20px;
+  max-width: 450px;
+  width: 450px;
+}
+
+.settings textarea {
+  border: 1px solid #adadad;
+}
+
+.settings .row button {
+  min-width: 450px;
+}
+
+.unverified {
+  display: flex;
+  justify-content: space-between;
+  margin: -8px;
+}
+
+.unverified button,
+.unverified button:focus,
+.unverified button:active {
+  font-size: 12px;
+  color: #292929;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.unverified button:hover {
+  font-size: 12px;
+}
+
+.unverified div {
+  min-width: 140px;
+}
+
+.unverified span {
+  padding-top: 3.5px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.unverified .email-sent {
+  padding: 7px 12px;
+}
+
+.email-notif {
+  padding-top: 10px;
+  margin-bottom: -20px;
+}
+
+.cancel-email-change {
+  transition: .5s ease;
+}
+
+.cancel-email-change:hover {
+  cursor: pointer;
+  color: black;
+ }
+
+.biography-question-mark {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.biography-preview {
+  width: 100%;
+  font-size: 14px;
+  padding: 20px;
+  height: 166px;
+}

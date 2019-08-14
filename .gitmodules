@@ -1,0 +1,3 @@
+[submodule "rezq-backend"]
+	path = rezq-backend
+	url = git@github.com:dongyuzheng/rezq-backend.git

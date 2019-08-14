@@ -1,0 +1,26 @@
+.action-box {
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  margin: 5px 100px;
+  text-align: center;
+}
+
+.action-message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.action-button {
+  width: 250px;
+  margin: 10px 0px;
+  background-color: #212121 !important;
+}
+
+.action-button-text {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}

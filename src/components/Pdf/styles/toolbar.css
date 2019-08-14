@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.toolbar {
+  position: sticky;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+  width: 50px;
+  height: 440px;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.toolbar .toolbar-title {
+  padding: 10px;
+  font-size: 18px;
+  color: #292929;
+}
+
+.toolbar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.toolbar button {
+  flex: 1;
+  background-color: #292929;
+  color: #e6e6e6;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 1px;
+  text-align: center;
+  position: relative;
+  max-height: 50px;
+  max-width: 50px;
+  border: none;
+  transition: .5s ease;
+}
+
+.toolbar button:hover:enabled {
+  background-color: #373737;
+  color: #e6e6e6;
+}
+
+.toolbar button:active:enabled,
+.toolbar button:focus:enabled,
+.toolbar .active-tool {
+  background-color: #d21280;
+  color: #e6e6e6;
+  outline: none;
+  transition: .5s ease;
+}
+
+.toolbar .active-tool:hover:enabled {
+  background-color: #d21280;
+  opacity: 0.9;
+}
+
+.toolbar button:disabled,
+.toolbar button:hover:disabled,
+.undo-redo:active:enabled,
+.undo-redo:focus:enabled {
+  color: #adadad;
+  background-color: #6c6c6c;
+}
+
+.show-hide:active:enabled,
+.show-hide:focus:enabled {
+  background-color: #292929 !important;
+}
+
+.toolbar button img {
+  height: 40px;
+}
+
+.toolbar div {
+  height: 10px;
+}
+
+.color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.color-selected {
+  width: 30px;
+  height: 30px;
+  margin-top: -1px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.text-color,
+.pen-color {
+  display: inline-block;
+}
+
+.glyphicon-hand-up {
+  font-size: 20px;
+  margin-top: 4px;
+  margin-right: 4px;
+}

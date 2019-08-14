@@ -1,0 +1,17 @@
+.errorContainer {
+  height: 100%;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.error-header {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.errorContainer a,
+.errorContainer a:hover,
+.errorContainer a:focus {
+  color: #d21280;
+  transition: .5s ease;
+}

@@ -1,0 +1,169 @@
+.dashboard {
+  background-color: #fdfdfd;
+  min-height: calc(100vh - 100px);
+  height: 100%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#title {
+  padding: 10px;
+  font-size: 200%;
+}
+
+#wrapper {
+  background-color: #f9f9f9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: calc(100% - 45px - 40px);
+}
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 5px 5px 3px #dedede;
+  height: 100%;
+}
+
+.dropzone {
+  color: #373737;
+  padding: 30px;
+  margin-bottom: 10px;
+  border-style: dotted;
+  border-color: #adadad;
+  height: 120px;
+  text-align: center;
+}
+
+.header-check-box {
+  text-align: center;
+  margin: 0px 0px -5px 0px !important;
+}
+
+.check-box {
+  text-align: center;
+  margin: 0 !important;
+  padding-top: 5px;
+}
+
+.fixed-col {
+  width: 10px;
+}
+
+.short-col {
+  width: 150px;
+  max-width: 150px;
+}
+
+.link-span {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.link-span:hover {
+  text-decoration: underline;
+}
+
+#upload-canvas {
+  display: none;
+}
+
+.resume-view-toggle {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.resume-grid-view {
+  padding: 20px 0px;
+}
+
+.resume-grid-item {
+  padding: 20px 35px !important;
+}
+
+.resume-checkbox {
+  padding-left: 200px;
+  position: absolute;
+}
+
+.grid-item-check-box input {
+  z-index: 1;
+}
+
+.resume-thumbnail-img {
+  height: 300px;
+  width: 230px;
+}
+
+.resume-thumbnail-placeholder {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 230px;
+  background-color: #fdfdfd;
+}
+
+.resume-thumbnail-placeholder .glyphicon {
+  padding: 120px;
+  font-size: 50px;
+}
+
+.resume-thumbnail-name {
+  text-align: center;
+  margin: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+.resume-thumbnail-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: #efefef;
+  background-color: #292929;
+  border: 1px solid #d21280;
+  border-radius: 1px;
+}
+
+.resume-thumbnail-container {
+  position: relative;
+  box-shadow: 0px 0px 5px #ccc;
+  transition: .5s ease;
+}
+
+.resume-thumbnail-container:hover .resume-thumbnail-overlay {
+  opacity: 0.8;
+}
+
+.resume-thumbnail-description {
+  margin-top: 50px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.resume-thumbnail-info {
+  text-align: center;
+}
+
+.resume-thumbnail-industries {
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.pool-selector {
+  height: 34px !important;
+}

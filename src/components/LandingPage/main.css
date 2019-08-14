@@ -1,0 +1,148 @@
+.bubble {
+  position: relative;
+  padding: 50px;
+  height: 500px;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #e6e6e6;
+  display: inline-block;
+}
+
+.bubble p {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bubble img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.cover-card {
+  padding: 10vh 0;
+  height: 100vh;
+  background-image: linear-gradient(#fafafa, #e6e6e6);
+}
+
+.back-card {
+  height: 80vh;
+  padding-top: 10vh;
+  padding-bottom: 30vh;
+  background-image: linear-gradient(#e6e6e6, #adadad);
+}
+
+.back-card-text {
+  padding-bottom: 5vh;
+}
+
+.landing-space {
+  width: 50px;
+}
+
+.landing-card {
+  padding: 10vh 0;
+  height: 100vh;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.landing-float {
+  position: absolute;
+  top: 8px;
+  left: 53%;
+}
+
+.underline {
+  background-color: #ffb91b;
+  width: 100%;
+  height: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.landing-img {
+  height: 390px;
+  max-width: 650px;
+  background-color: #292929;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.landing-text {
+  padding: 80px 50px;
+  height: 300px;
+  max-width: 500px;
+  text-align: center;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.landing-header {
+  font-size: 30px;
+  padding-bottom: 2vh;
+}
+
+.landing-description {
+  font-size: 14px;
+}
+
+.showcase-img {
+  height: 390px;
+  max-width: 650px;
+}
+
+.scroll-arrow {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  bottom: 60px;
+  width: 100%;
+}
+
+.scroll-arrow button,
+.scroll-arrow button:focus,
+.scroll-arrow button:active {
+  transition: color 0.25s;
+  height: 48px;
+  color: #292929;
+  margin-left: 5px;
+}
+
+.scroll-arrow button:hover {
+  color: #d21280;
+}
+
+.scroll-arrow-glyphicon {
+  font-size: 40px;
+  opacity: 0.25;
+}
+
+.scroll-arrow-glyphicon-rotated {
+  font-size: 40px;
+  opacity: 0.25;
+  animation: rotate-keyframes 0.5s forwards;
+}
+
+@keyframes rotate-keyframes {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}

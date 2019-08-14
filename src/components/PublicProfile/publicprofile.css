@@ -1,0 +1,143 @@
+.profileContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #373737;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #e6e6e6;
+  margin: 20px -80px;
+}
+
+.recentsContainer {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.profile-dp-container {
+  color: #adadad;
+  padding: 20px;
+  min-width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.profile-subtitle {
+  font-weight: bold;
+}
+
+.default-profile-dp {
+  min-width: 250px;
+  min-height: 250px;
+  text-align: center;
+  padding-top: 60px;
+  border: 2px dashed #adadad;
+  font-size: 50px;
+}
+
+.profile-stats {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-stats div {
+  padding-bottom: 10px;
+}
+
+.profile-dp {
+  height: 250px;
+  width: 250px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+}
+
+.profile-details {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.profile-industries {
+  padding-top: 20px;
+}
+
+.profile-level {
+  font-size: 1.3em;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  display: inline-block;
+}
+
+.profile-name {
+  font-size: 1.5em;
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-biography {
+  padding-top: 20px;
+}
+
+.recent-critique-panel {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.recent-critique-thumbnail {
+  min-height: 300px;
+  min-width: 230px;
+  max-width: 35%;
+}
+
+.recent-critique-thumbnail:hover {
+  cursor: pointer;
+  border: 1px #d21280 solid;
+  margin: -1px;
+}
+
+.recent-critique-resume-name {
+  width: 100%;
+  font-size: 24px;
+}
+
+.recent-critique-resume-name:hover {
+  color: #d21280;
+  cursor: pointer;
+}
+
+.recent-critique-resume-name:visited {
+  color: #551A8B;
+}
+
+.recent-critique-submitted-on {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recent-critique-details {
+  display: block;
+  flex-wrap: nowrap;
+  min-width: 65%;
+  padding-left: 20px;
+  padding-right: 20px;
+}

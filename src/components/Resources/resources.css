@@ -1,0 +1,36 @@
+.resources-container {
+  background-color: #e6e6e6;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+}
+
+.resources-header {
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 30px;
+  white-space: pre-wrap;
+}
+
+.resources-grid {
+  transform: translateY(10%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resources-button {
+  color: #e6e6e6 !important;
+  background-color: #373737 !important;
+  width: 100%;
+  height: 100px;
+  line-height: 85px !important;
+  margin-top: 30px;
+  transition: .5s ease;
+}
+
+.resources-button:hover {
+  color: #e6e6e6 !important;
+  background-color: #d21280 !important;
+  outline: none;
+}

@@ -1,0 +1,22 @@
+.stars {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.starUnselected {
+  color: #292929;
+}
+
+.starSelected {
+  color: #d21280;
+}
+
+.message-box {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.report-message {
+  margin-top: 15px;
+  margin-bottom: 5px !important;
+}

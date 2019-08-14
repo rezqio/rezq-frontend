@@ -1,0 +1,20 @@
+div > .landingPageButton {
+  border: 5px #000;
+  width: 300px;
+  height: 70px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fafafa;
+  padding: 22px 29px;
+  background-color: #d21280;
+  font-family: Rubik !important;
+  margin-bottom: 0;
+  display: inline-block;
+  transition: .5s ease;
+}
+
+div > .landingPageButton:hover {
+  background-color: #292929;
+  color: #fafafa;
+}

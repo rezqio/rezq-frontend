@@ -1,0 +1,31 @@
+repos:
+  -
+    repo: 'git://github.com/pre-commit/pre-commit-hooks'
+    rev: v2.1.0
+    hooks:
+      -
+        id: trailing-whitespace
+      -
+        id: end-of-file-fixer
+      -
+        id: mixed-line-ending
+        args:
+          - '--fix=lf'
+  -
+    repo: 'git://github.com/pre-commit/mirrors-eslint'
+    rev: v5.15.3
+    hooks:
+      -
+        id: eslint
+        types:
+          - file
+        files: '\.jsx?$'
+        args:
+          - '--fix'
+        additional_dependencies:
+          - eslint
+          - eslint-config-airbnb
+          - eslint-plugin-import
+          - eslint-plugin-jsx-a11y
+          - eslint-plugin-react
+          - eslint-plugin-css-modules

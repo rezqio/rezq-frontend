@@ -1,0 +1,131 @@
+.pdfViewer {
+  background-color: #373737;
+}
+
+.annotationLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#pdf-annotate-text-input {
+  position: fixed !important;
+}
+
+#pdf-annotate-point-input {
+  position: fixed !important;
+}
+
+.rez-modal-fit-screen {
+  min-width: 1300px !important;
+}
+
+.pdf-container {
+  display: flex;
+  position: relative;
+}
+
+.pdf-panel {
+  background-color: #373737;
+  display: inline-table;
+}
+
+.pdf-page-numbers-toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-right-pagination-button {
+  transition: .5s ease;
+}
+
+.left-right-pagination-button:hover {
+  border-color: grey!important;
+}
+
+.pdf-page-numbers {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.pdf-page-numbers > li {
+  margin-right: 0.3em;
+  color: #e6e6e6;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  transition: .5s ease;
+}
+
+.pdf-page-numbers > li:hover {
+  text-decoration: underline;
+}
+
+.pdf-page-numbers .active {
+  color: #d21280;
+  transition: .5s ease;
+}
+
+.pdf-page-numbers .active:hover {
+  text-decoration: none;
+}
+
+.viewer {
+  position: relative;
+}
+
+.comment-tooltip .tooltip-inner {
+  background-color: #e6e6e6!important;
+}
+
+.comment-tooltip .tooltip-arrow {
+  border-bottom-color: #e6e6e6!important;
+}
+
+.comment-tooltip .form-group {
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+
+.comment-tooltip-readonly {
+  margin: 5px;
+  max-height: 84px;
+  word-break: break-word;
+  color: black;
+  overflow: auto;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+
+ .pdf-pagination {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ .pdf-pagination > .pagination > .active-page > a:hover,
+.pdf-pagination > .pagination > li > a:hover {
+  background-color: #d21280;
+  color: #ffffff;
+  border-color: #d21280;
+}
+
+ .pdf-pagination > .pagination > .active-page > a {
+  background-color: #292929;
+  color: #ffffff;
+  transition: .5s ease;
+}
+
+ .pdf-pagination > .pagination > li > a {
+  background-color: #ffffff;
+  color: #292929;
+  transition: .5s ease;
+}
